@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea700bef-1197-4743-b067-ae1cf396735f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Driver/SelenideApplicationDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/VacanciesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/IApplicationDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FindVacanciesTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ea700bef-1197-4743-b067-ae1cf396735f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -47,7 +35,7 @@
     "JUnit.FindVacanciesTest.findVacanciesAndCheckResults.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Тарасов Александр/Desktop/Courses/UI_API_tests/Sovcombank/src/test/java",
     "last_opened_file_path": "C:/Users/Тарасов Александр/Desktop/Courses/UI_API_tests/Sovcombank",
