@@ -38,10 +38,15 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Тарасов Александр/Desktop/Courses/UI_API_tests/Sovcombank/src/test/java",
-    "last_opened_file_path": "C:/Users/Тарасов Александр/Desktop/Courses/UI_API_tests/Sovcombank",
+    "last_opened_file_path": "C:/Users/Тарасов Александр/Desktop/Courses/UI_API_tests/Sovcombank/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/Тарасов Александр/Desktop/Courses/UI_API_Tests/Sovcombank/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Тарасов Александр\Desktop\Courses\UI_API_tests\Sovcombank\src\test\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="FindVacanciesTest.findVacanciesAndCheckResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sovcombank" />
