@@ -8,7 +8,6 @@ public class Name {
     private String first;
     private String last;
 
-    // Геттеры и сеттеры
 
     public String getTitle() {
         return title;

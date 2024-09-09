@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class RandomUserApiTest {
 
-    private static String URL = "https://randomuser.me/api/";
+    private static final String URL = "https://randomuser.me/api/";
 
     @Test
     public void simplePositiveTests() throws JsonProcessingException {
@@ -70,14 +70,24 @@ public class RandomUserApiTest {
         ObjectMapper objectMapper = new ObjectMapper();
         ApiResponse apiResponse = objectMapper.readValue(response.getBody().asString(), ApiResponse.class);
 
-
-        assertThat(apiResponse.getResults()).isNotEmpty();
         List<User> femaleUsers = apiResponse.getResults().stream()
                 .filter(user -> user.getGender().equals("male"))
-                .collect(Collectors.toList());
-        assertThat(femaleUsers.isEmpty());
+                .toList();
+        assertThat(femaleUsers).isEmpty();
     }
 
+    @Test
+    public void nationalityNotEqualChina() throws JsonProcessingException {
+        RequestSpecification request = RestAssured.given();
+        request.queryParams("nat", "tr");
+
+        Response response = request.get(URL);
+        assertThat(response.getStatusCode()).isEqualTo(200);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        ApiResponse apiResponse = objectMapper.readValue(response.getBody().asString(), ApiResponse.class);
+        assertThat(apiResponse.getResults()).noneMatch(user -> "ch".equals(user.getLocation().getCountry()));
+    }
 
 }
 

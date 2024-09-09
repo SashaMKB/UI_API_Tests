@@ -10,8 +10,6 @@ class Info {
     private int page;
     private String version;
 
-    // Геттеры и сеттеры
-
     public String getSeed() {
         return seed;
     }

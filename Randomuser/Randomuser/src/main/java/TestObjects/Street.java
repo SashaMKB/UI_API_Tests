@@ -7,8 +7,6 @@ class Street {
     private int number;
     private String name;
 
-    // Геттеры и сеттеры
-
     public int getNumber() {
         return number;
     }
